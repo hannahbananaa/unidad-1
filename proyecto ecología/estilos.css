@@ -1,0 +1,604 @@
+*{
+    margin: 1;
+    box-sizing: border-box;
+}
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .just-another-hand-regular {
+    font-family: "Just Another Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+.titulo{
+    padding: 25px;
+    margin-bottom: 10px;
+    background-color: rgba(240, 227, 185, 0.452);
+    font-size: 100px;
+    text-align: left;
+    height: 170px;
+    color: rgb(106, 141, 118);
+    box-shadow: 0px 5px 3px 1px rgb(177, 149, 114);
+    font-family: Satisfy;
+    background-image: url(https://i.pinimg.com/564x/25/61/1a/25611ab926ce240cbcff727cc40359d8.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 170px;
+    background-position: right;
+    border-radius: 40px;
+}
+
+span{
+    margin-left: 60px;
+}
+
+.cajita{
+    float: left;
+    width: 21.3%;
+}
+
+.subtitulo{
+    border-radius: 10px;
+    background-color: rgba(230, 206, 176, 0.637);
+    padding: 5px;
+    font-size: 37px;
+    width: 260px;
+    box-shadow: -3px 6px 5px 0 rgb(119, 102, 78);
+    color: rgb(117, 108, 89);
+    margin: 10px;
+    font-family: "Just Another Hand";
+}
+
+.flora{
+    border-radius: 10px;
+    background-color: rgba(228, 209, 184, 0.637);
+    padding: 5px;
+    font-size: 25px;
+    margin: 10px;
+    width: 260px;
+    box-shadow: -4px 6px 5px 0 rgb(129, 115, 95);
+    color: rgb(141, 130, 106);
+    font-family: Just another hand;
+}
+
+.lista{
+    background-color: rgb(86, 100, 86);
+    border-radius: 10px;
+    width: 260px;
+    margin: 10px;
+    box-shadow: -4px 6px 5px 1px rgb(62, 65, 62);
+}
+
+.bison{
+    background-color:rgb(117, 143, 117);
+    border-top-right-radius: 10px;
+    font-family: satisfy;
+}
+
+#bisonte{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+.ciervo{
+    background-color:rgb(117, 143, 117);
+    font-family: satisfy;
+}
+
+#ciervo{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+.coyo{
+    background-color:rgb(117, 143, 117);
+    font-family: satisfy;
+}
+
+#coyote{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+
+.conejo{
+    background-color:rgb(117, 143, 117);
+    font-family: satisfy;
+}
+
+#conejo{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+
+.ave{
+    background-color:rgb(117, 143, 117);
+    font-family: satisfy;
+    
+}
+
+#ave{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+
+.perro{
+    background-color:rgb(117, 143, 117);border-bottom-right-radius: 10px;
+    font-family: satisfy;
+}
+
+#perro{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+a{
+    color: white;
+}
+
+.cajita2{
+    float: right;
+    width: 21%;
+}
+.especies{
+    border-radius: 10px;
+    background-color: rgba(228, 209, 184, 0.637);
+    padding: 5px;
+    font-size: 25px;
+    margin: 10px;
+    width: 260px;
+    box-shadow: 3px 6px 5px 0px rgb(129, 115, 95);
+    color: rgb(141, 130, 106);
+    font-family: "Just Another Hand"
+}
+
+.lista2{
+    background-color: rgb(86, 100, 86);
+    border-radius: 10px;
+    width: 260px;
+    margin: 10px;
+    box-shadow: 5px 6px 5px 2px rgb(84, 87, 83);
+}
+
+.hierba{
+    background-color:rgb(117, 143, 117);
+    border-top-right-radius: 10px;
+    font-family: satisfy;
+}
+
+#hierba{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+.trebol{
+    background-color:rgb(117, 143, 117);
+    font-family: satisfy;
+}
+
+#trebol{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+.pasto{
+    background-color:rgb(117, 143, 117);
+    font-family: satisfy;
+}
+
+#pasto{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+
+.amapola{
+    background-color:rgb(117, 143, 117);
+    font-family: satisfy;
+}
+
+#amapola{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+
+.bufalo{
+    background-color:rgb(117, 143, 117);
+    font-family: satisfy;
+    
+}
+
+#bufalo{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+
+.espuela{
+    background-color:rgb(117, 143, 117);
+    font-family: satisfy;
+    
+}
+
+#espuela{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+
+.girasol{
+    background-color:rgb(117, 143, 117);
+    font-family: satisfy;
+    
+}
+
+#girasol{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+    height: 150px;
+}
+
+.mijo{
+    background-color:rgb(117, 143, 117);
+    font-family: satisfy;
+    
+}
+
+#mijo{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+
+.lupino{
+    background-color:rgb(117, 143, 117);
+    font-family: satisfy;
+    
+}
+
+#lupino{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+
+.grama{
+    background-color:rgb(117, 143, 117);
+    font-family: satisfy;
+    
+}
+
+#grama{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+
+.madre{
+    background-color:rgb(117, 143, 117);
+    font-family: satisfy;
+    
+}
+
+#madre{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+
+.diente{
+    background-color:rgb(117, 143, 117);
+    font-family: satisfy;
+    
+}
+
+#diente{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+
+.pata{
+    background-color:rgb(117, 143, 117);
+    font-family: satisfy;
+    
+}
+
+#pata{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+
+.azucar{
+    background-color:rgb(117, 143, 117);
+    font-family: satisfy;
+    
+}
+
+#azucar{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}
+
+.azul{
+    background-color:rgb(117, 143, 117);border-bottom-right-radius: 10px;
+    font-family: satisfy;
+}
+
+#azul{
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 4px 3px rgb(31, 41, 31);
+}   
+
+.flora2{
+    text-align: justify;
+    background-color: rgb(212, 192, 163);
+    margin-left: 283px;
+    width: 770px;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px 0 rgb(105, 87, 72) ;
+    
+}
+p{
+    padding: 13px;
+    font-size: 16.6px;
+    font-family: Averia Gruesa Libre;
+    color: rgb(73, 66, 56);
+}
+
+.especi{
+    border-radius: 10px;
+    background-color: rgba(230, 206, 176, 0.637);
+    padding: 5px;
+    font-size: 37px;
+    margin-left: 283px;
+    width: 770px;
+    margin-bottom: 10px;
+    box-shadow: 0px 6px 5px 0 rgb(119, 102, 78);
+    color: rgb(117, 108, 89);
+    font-family: "Just Another Hand";
+}
+
+.lista3{
+    background-color: rgb(97, 124, 97);
+    margin-left: 283px;
+    width: 770px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 4px 1px rgb(39, 53, 39);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.bi{
+    background-color: rgb(79, 100, 79);
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Averia Gruesa Libre;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#bibi{
+    width: 190px;
+    border-radius: 10px;
+    margin-left: 230px;
+}
+
+.echi{
+    background-color: rgb(79, 100, 79);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-family: Averia Gruesa Libre;
+    text-align: justify;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+#echi{
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 230px;
+    height: 150px;
+}
+
+.avena{
+    background-color: rgb(79, 100, 79);
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Averia Gruesa Libre;
+    text-align: justify;
+    font-size: 15px;
+    color: white;
+}
+
+#avena{
+    width: 150px;
+    border-radius: 10px;
+    margin-left: 230px;
+    height: 150px;
+}
+
+roct{
+    margin-top: 30px;
+    font-family: Just Another Hand;
+    padding: 3px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(122, 104, 80);
+    border-radius: 10px;
+    width: 260px;
+    box-shadow: 0px 3px 5px 1px rgb(70, 58, 43);
+}
+
+.consum1{
+    border-radius: 10px;
+    background-color: rgba(230, 206, 176, 0.637);
+    padding: 5px;
+    font-size: 37px;
+    margin-left: 283px;
+    width: 770px;
+    margin-bottom: 10px;
+    box-shadow: 0px 6px 5px 0 rgb(119, 102, 78);
+    color: rgb(117, 108, 89);
+    font-family: "Just Another Hand";
+}
+
+.lista5{
+    margin-left: 283px;
+    width: 770px;
+    background-color: rgb(80, 102, 80);
+    border-radius: 10px;
+    font-family: Averia Gruesa Libre;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 4px 1px rgb(33, 48, 33);
+}
+
+#bison{
+    width: 130px;
+    border-radius: 10px;
+}
+
+#perrito{
+    width: 130px;
+    border-radius: 10px;
+}
+
+#cierbo{
+    width: 130px;
+    border-radius: 10px;
+}
+
+#coneyo{
+    width: 130px;
+    border-radius: 10px;
+}
+
+#rata{
+    width: 130px;
+    border-radius: 10px;
+}
+.consum2{
+    border-radius: 10px;
+    background-color: rgba(230, 206, 176, 0.637);
+    padding: 5px;
+    font-size: 37px;
+    margin-left: 283px;
+    width: 770px;
+    margin-bottom: 10px;
+    box-shadow: 0px 6px 5px 0 rgb(119, 102, 78);
+    color: rgb(117, 108, 89);
+    font-family: "Just Another Hand";
+}
+
+.lista6{
+    margin-left: 283px;
+    width: 770px;
+    background-color: rgb(80, 102, 80);
+    border-radius: 10px;
+    font-family: Averia Gruesa Libre;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 4px 1px rgb(33, 48, 33);
+}
+
+#coyotito{
+    width: 130px;
+    border-radius: 10px;
+}
+
+#lince{
+    width: 130px;
+    border-radius: 10px;
+}
+
+#aguila{
+    width: 130px;
+    border-radius: 10px;
+}
+
+.consum3{
+    border-radius: 10px;
+    background-color: rgba(230, 206, 176, 0.637);
+    padding: 5px;
+    font-size: 37px;
+    margin-left: 283px;
+    width: 770px;
+    margin-bottom: 10px;
+    box-shadow: 0px 6px 5px 0 rgb(119, 102, 78);
+    color: rgb(117, 108, 89);
+    font-family: "Just Another Hand";
+}
+
+.lista7{
+    margin-left: 283px;
+    width: 770px;
+    background-color: rgb(80, 102, 80);
+    border-radius: 10px;
+    font-family: Averia Gruesa Libre;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 4px 1px rgb(33, 48, 33);
+}
+
+#culebra{
+    width: 130px;
+    border-radius: 10px;
+}
+
+#gato{
+    width: 130px;
+    border-radius: 10px;
+}
+
+.consum4{
+    border-radius: 10px;
+    background-color: rgba(230, 206, 176, 0.637);
+    padding: 5px;
+    font-size: 37px;
+    margin-left: 283px;
+    width: 770px;
+    margin-bottom: 10px;
+    box-shadow: 0px 6px 5px 0 rgb(119, 102, 78);
+    color: rgb(117, 108, 89);
+    font-family: "Just Another Hand";
+}
+
+.lista8{
+    margin-left: 283px;
+    width: 770px;
+    background-color: rgb(80, 102, 80);
+    border-radius: 10px;
+    font-family: Averia Gruesa Libre;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0px 3px 4px 1px rgb(33, 48, 33);
+}
+
+#lincesito{
+    width: 130px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: grey;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 12px;
+    font-family: Just Another Hand;
+}
