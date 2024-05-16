@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Calificación Final del Alumno</title>
+</head>
+<body>
+<form id="formulario">
+    <fieldset>
+        <legend>Calificaciones</legend>
+        Nombre del alumno: <input type="text" id="nombre" required><br><br>
+        Materia: <input type="text" id="materia" required><br><br>
+        Calificación 1: <input type="number" id="calificacion1" required>
+        Calificación 2: <input type="number" id="calificacion2" required><br><br>
+        Calificación 3: <input type="number" id="calificacion3" required><br>
+
+        <fieldset>
+            <legend>Participaciones</legend>
+            <input type="radio" id="participacion1" name="participaciones" value="10">
+            <label for="participacion1">1 participación</label><br>
+            <input type="radio" id="participacion2" name="participaciones" value="20">
+            <label for="participacion2">2 participaciones</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Actividades</legend>
+            <input type="checkbox" id="actividad1" name="actividad" value="5">
+            <label for="actividad1">Actividad 1</label><br>
+            <input type="checkbox" id="actividad2" name="actividad" value="5">
+            <label for="actividad2">Actividad 2</label><br>
+            <input type="checkbox" id="actividad3" name="actividad" value="5">
+            <label for="actividad3">Actividad 3</label>
+        </fieldset>
+    </fieldset>
+    <button type="submit">Calcular Calificación Final</button>
+</form>
+<div id="resultado"></div>
+
+<script src="formulario.js"></script>
+</body>
+</html>
